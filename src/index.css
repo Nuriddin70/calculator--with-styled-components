@@ -1,5 +1,13 @@
+*,*::after,*::before{
+  box-sizing: border-box;
+  font-family: Gotham Rounded, sans-serif;
+  font-weight: normal;
+}
+
 body {
   margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, #2e89c5, #4b8db4);
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -11,3 +19,26 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.btn{
+  outline: none;
+  padding: 16px 32px;
+  background: rgb(0, 1, 59);
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-size: 18;
+  border-radius: 8px 0 9px 0; 
+  border-bottom: 3px solid orange;
+  position: relative;
+  left: 40%;
+  margin-top: 5px;
+  transition: all 0.5s ease;
+}
+
+.btn:hover{
+  border-radius:0 10px 0 10px;
+  
+}
+
